@@ -47,5 +47,5 @@ try:
      
     res = get_data(sock)
     show_data(res)
-finally:
+finally: 
     sock.close()
